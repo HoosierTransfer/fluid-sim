@@ -1,0 +1,10 @@
+[package]
+name = "baseGrid"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gl = "0.14.0"
+glutin = "0.28.0" # For windowing and OpenGL context
+nalgebra = "0.33.1" # For linear algebra
+rand = "0.8.4" # For random number generation
